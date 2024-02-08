@@ -1,0 +1,63 @@
+body {
+    font-family:'Perpetua', serif;
+    font-size:20px;
+    background-color:rgb(163, 227, 232);;
+    margin: 10px;;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(139, 96, 219);
+    background-image:url("pranita.jpg");
+    background-size:40%;
+    background-position:right;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align:left;
+    padding:250px;
+}
+pre {
+    line-height: 2.0;
+    text-align: center;
+    color: black;
+}
+section{
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+#about{
+    text-align: center;
+    padding: 30px;
+}
+
+#about img {
+    max-width:200px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#skills,
+#resume,
+#contact{
+    padding:50px;
+    margin:100px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
